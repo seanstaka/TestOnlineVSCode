@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+}
+
+.area {
+  width: inherit;
+  height: 400px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.panel {
+  height: inherit;
+}
+
+#final {
+  display: flex;
+  align-items: center;
+}
+
+.speech {
+  background-color: white;
+  border-radius: 10px;
+  border: white solid;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  text-align: center;
+}
+
+/** CSS PSEUDOSELECTORS **/
+.speech:hover {
+  animation-name: changeToBlack;
+  animation-duration: 1s;
+}
+
+/** CSS ANIMATION **/
+@keyframes changeToBlack {
+  from {border: white solid;}
+  to {border: black solid}
+}
+
+#dialogue1 {
+  top: 0px;
+  left: 400px;
+  height: 100px;
+  width: 200px;
+}
+
+#dialogue2 {
+  top: 100px;
+  left: 1050px;
+  height: 100px;
+  width: 300px;
+  border-radius: 400px;
+}
+
+#dialogue3 {
+  top: 500px;
+  left: 420px;
+  height: 100px;
+  width: 250px;
+}
+
+#dialogue4 {
+  top: 690px;
+  left: 950px;
+  height: 90px;
+  width: 250px;
+}
+
+#dialogue5 {
+  top: 950px;
+  left: 370px;
+  height: 90px;
+  width: 250px;
+}
+
+#dialogue6 {
+  top: 900px;
+  left: 700px;
+  height: 90px;
+  width: 200px;
+}
+
+#dialogue7 {
+  top: 1100px;
+  left: 1060px;
+  height: 50px;
+  width: 200px;
+}
+
+#dialogue8 {
+  top: 1300px;
+  left: 1100px;
+  height: 50px;
+  width: 200px;
+}
+
+#button1 {
+  background-color: black;
+  color: white;
+  outline: 0;
+  border-radius: 100px;
+}
